@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 
-	var arr = []int{7, 2, 1}
-	var sumArr = 2
+	var arr = []int{2, 3, 4}
+	// var sumArr = 2
 
-	var start, end = maxSubArrOpt(arr, sumArr)
+	var start = countTriplet(arr)
 
-	fmt.Println("print value ", start, end)
+	fmt.Println("print value ", start)
 
 }
