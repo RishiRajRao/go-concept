@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 
-	var str = "i.like.this.program.very.much"
+	var str = "ABC"
 	// var sumArr = 2
 
-	var start = reverseString(str)
+	var start = permutationString(str)
 
-	fmt.Println("print value\n", start)
+	fmt.Printf("print value %v\n", start)
 
 }
