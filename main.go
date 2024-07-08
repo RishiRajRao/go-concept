@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 
-	var arr = []int{2, 3, 4}
+	var str = "i.like.this.program.very.much"
 	// var sumArr = 2
 
-	var start = countTriplet(arr)
+	var start = reverseString(str)
 
-	fmt.Println("print value ", start)
+	fmt.Println("print value\n", start)
 
 }
